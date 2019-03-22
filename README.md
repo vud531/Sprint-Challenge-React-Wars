@@ -25,12 +25,25 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+  1. duplicate code/scaling - react has class and functional components that allow developers to reuse templates and components to display the same type of data
+  ex: a reusable social card that most social media app have
+
+  2. 1 page application - instead of re-loading the whole page to display a few updated element, react allows rendering that specific update DOM element
+
+  3. data/state management - allow different page element to manage and edit the same data by breaking it down to different states and pass them around with props
+ 
 
 - [ ] What does it mean to _think_ in react?
+  create reusable components for your page,
+  minimize duplicate codes/functionalities,
+  think of different states your data has go through while being manipulated 
 
 - [ ] Describe state.
+  this is where our main data should live
+  for example: if we are creating a list of different to-do object, we can have this list live inside the state so that different components can manipulate and manage it
 
 - [ ] Describe props.
+  allow different components to recieve data from the state/sub-states/prop/sub-props
 
 ## Project Set Up
 
